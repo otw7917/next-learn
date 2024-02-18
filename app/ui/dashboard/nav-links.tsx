@@ -26,7 +26,6 @@ export default function NavLinks() {
 
   return (
     <>
-      <button onClick={() => console.log(pathname)}>where are you</button>
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
